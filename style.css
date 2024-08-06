@@ -6,9 +6,9 @@
     font-size: 40px;
     color: white;
     background-color: blue;
+    background-size: 100%;
 }
 .parrafo {
-    font-size:  28px;
-    background-color: red;
-    color: white;
+   text-align: center;
+   background-color:blue;
 }
