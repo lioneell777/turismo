@@ -1,5 +1,6 @@
 .logo {
     text-align: center;
+    height: 1000px;
     
 }
 .bienvenido {
@@ -13,10 +14,6 @@
    background-color:blue;
 }
 body {
-    background-image: url("/micros.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
@@ -75,7 +72,7 @@ input[type="text"], input[type="date"], select {
     margin-right: 5px;
 }
 
-button {
+.button {
     padding: 30px 120px;
     background-color: #ff4b5c;
     color: white;
