@@ -9,13 +9,53 @@
     <link rel = "type/html" href = "index3.html">
 </head>
 <body>
-    <div class = "logo">
+        <div class = "logo">
             <img src ="Noba bus.png" width="400px" height="200px" alt|="𝐏𝐚𝐠𝐢𝐧𝐚 𝐝𝐞 𝐓𝐮𝐫𝐢𝐬𝐦𝐨">
-    </div>
-    <div class = "parrafo">
-        <span style="color: white;">En estos momentos con encontramos con errores con el trabajo de tarjetas y transferencias <br> para mas informacion llamar: 11 3008 8715 ></span>
-    </div>
-    <span><a href = "index2.html" ><li>Destinos</li></a></span>
-    <h1>Hola</h1>
+
+            <div class="container">
+                <h1>Comprá tus pasajes acá</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="origen">Ciudad de origen</label>
+                        <input type="text" id="origen" placeholder="¿Desde dónde viajas?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="destino">Ciudad de destino</label>
+                        <input type="text" id="destino" placeholder="¿Hasta dónde viajas?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="salida">Salida</label>
+                        <input type="date" id="salida">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="regreso">Regreso</label>
+                        <input type="date" id="regreso">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pasajeros">Pasajeros</label>
+                        <select id="pasajeros">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <!-- Agrega más opciones según sea necesario -->
+                        </select>
+                    </div>
+                    
+                    <div class="form-group trip-type">
+                        <input type="radio" id="soloIda" name="trip" value="soloIda" checked>
+                        <label for="soloIda">Solo Ida</label>
+                        <input type="radio" id="idaVuelta" name="trip" value="idaVuelta">
+                        <label for="idaVuelta">Ida y Vuelta</label>
+                    </div>
+                    
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>  
 </body>
 </html>
